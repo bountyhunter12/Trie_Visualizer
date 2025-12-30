@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Graphviz outputs
+*.gv
+*.gv.pdf
+*.gv.png
+
+# IDEs
+.vscode/
+.idea/
