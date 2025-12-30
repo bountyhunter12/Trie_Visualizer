@@ -1,28 +1,108 @@
-# 🌳 Trie Autocomplete Visualizer
+# Trie Autocomplete Visualizer
 
-A Streamlit-based interactive application that demonstrates the **Trie data structure**
-for fast autocomplete using **AI-generated themed words**.
+An interactive Streamlit-based Python project that demonstrates the Trie data structure for fast autocomplete.  
+The project supports theme-based word generation using Google Gemini AI with a safe fallback mode, and visualizes the Trie structure as a tree.
 
-## 🚀 Features
-- Theme-based word generation (Gemini AI + fallback)
-- Trie construction & visualization
-- Prefix autocomplete
-- Interactive Streamlit UI
-- Graphviz tree rendering
+This project is designed for learning, demonstration, and visualization of how Tries work internally.
 
-## 🧠 Tech Stack
-- Python
+---
+
+## Features
+
+### Trie Data Structure
+- Efficient insertion  
+- Prefix-based search (autocomplete)
+
+### Theme-Based Word Generation
+- Uses Google Gemini API (when available)
+- Automatic fallback to local datasets
+
+### Interactive Streamlit UI
+- Theme selection (space, fantasy, technology, ocean, etc.)
+- Adjustable number of words
+- Live autocomplete suggestions
+
+### Trie Visualization
+- Visual tree rendering using Graphviz
+- Shows how words are stored and shared by prefix
+
+### Modular & Extensible Design
+- Easy to add deletion, ranking, or advanced search
+
+---
+
+## Technologies Used
+- Python 3.8+
 - Streamlit
 - Trie (Data Structures)
 - Google Gemini API
 - Graphviz
+- Pydantic (schema validation)
+- python-dotenv
 
-## 🖥️ Run Locally
+## Frontend Preview
 
+![Trie Autocomplete Visualizer UI](assets/frontend.png)
+
+---
+
+## Requirements
+- Python 3.8 or higher
+- Graphviz (installed and added to PATH)
+
+Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+## Getting Started
+
+### Clone the repository
 ```bash
 git clone https://github.com/<your-username>/trie-autocomplete-visualizer.git
 cd trie-autocomplete-visualizer
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate   # Windows
+```
+### Install dependencies
+```bash
 pip install -r requirements.txt
+```
+### Configure environment variables
+```bash
+GOOGLE_API_KEY=your_gemini_api_key_here
+```
+### Run the application
+```bash
 streamlit run streamlit_app.py
+```
+
+---
+
+## How to Use
+- Select a theme from the sidebar  
+- Choose the number of words  
+- Click **Generate Trie**  
+
+### View:
+- Loaded words  
+- Trie visualization  
+- Autocomplete suggestions by typing prefixes  
+
+---
+
+## Learning Outcomes
+- Understand how Tries store words efficiently  
+- Visualize shared prefixes in a tree structure  
+- Compare Trie-based autocomplete vs linear search  
+- Learn how to combine data structures with modern UI tools  
+
+---
+
+## Notes
+- `.env` and `venv/` are excluded via `.gitignore`  
+- Graph visualization requires Graphviz installed locally  
+
+---
+
+## License
+MIT License
