@@ -43,7 +43,8 @@ This project is designed for learning, demonstration, and visualization of how T
 ## Frontend Preview
 
 ![Trie Autocomplete Visualizer UI](assets/im1.png)
-
+![Trie Autocomplete Visualizer UI1](assets/im2.png)
+![Trie Autocomplete Visualizer UI2](assets/im3.png)
 ---
 
 ## Requirements
@@ -85,6 +86,7 @@ streamlit run streamlit_app.py
 
 ## License
 MIT License
+
 
 
 
