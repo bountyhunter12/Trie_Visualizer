@@ -57,10 +57,7 @@ pip install -r requirements.txt
 ```
 ## Getting Started
 
-### Clone the repository
 ```bash
-git clone https://github.com/<your-username>/trie-autocomplete-visualizer.git
-cd trie-autocomplete-visualizer
 python -m venv venv
 venv\Scripts\activate   # Windows
 ```
@@ -89,5 +86,6 @@ streamlit run streamlit_app.py
 
 ## License
 MIT License
+
 
 
