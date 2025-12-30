@@ -42,7 +42,7 @@ This project is designed for learning, demonstration, and visualization of how T
 
 ## Frontend Preview
 
-![Trie Autocomplete Visualizer UI](assets/frontend.png)
+![Trie Autocomplete Visualizer UI](assets/.png)
 
 ---
 
@@ -83,26 +83,9 @@ streamlit run streamlit_app.py
 - Choose the number of words  
 - Click **Generate Trie**  
 
-### View:
-- Loaded words  
-- Trie visualization  
-- Autocomplete suggestions by typing prefixes  
-
----
-
-## Learning Outcomes
-- Understand how Tries store words efficiently  
-- Visualize shared prefixes in a tree structure  
-- Compare Trie-based autocomplete vs linear search  
-- Learn how to combine data structures with modern UI tools  
-
----
-
-## Notes
-- `.env` and `venv/` are excluded via `.gitignore`  
-- Graph visualization requires Graphviz installed locally  
 
 ---
 
 ## License
 MIT License
+
